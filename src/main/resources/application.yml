@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: test      
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    #because springBoot 3 use hibernate 6 //database-platform: org.hibernate.dialect.PostgreSQLDialect
+  
